@@ -1,0 +1,37 @@
+#NOTA 1 -> o comando Printf será desconsiderado para os propositos da maquina de traços
+#NOTA 2 -> todas as maquinas de traço terão como entrada o numero 3 para fins didaticos
+ 
+#MONOLITICO#
+
+A = int num;
+B = int fatorial = 1;
+C = int i = 1;
+D = scanf("%d", &num);
+*E = num < 0*; (não conta para a maquina de traços
+*F = i <= num*
+G = fatorial *= i 
+H = i = i+1
+J = BREAK;
+
+(1,ε) 
+(2,A)
+(3,AB)
+(4,ABC)
+(5,ABCD) (TESTE E)
+(6,ABCD) (TESTE F)
+(7,ABCD)
+(8,ABCDG)
+(9,ABCDGH) (GO-TO)
+(6,ABCDGH) (TESTE F)
+(7,ABCDGH)
+(8,ABCDGHG)
+(9,ABCDGHGH) (GO-TO)
+(6,ABCDGHGH) (TESTE F)
+(7,ABCDGHGH)
+(8,ABCDGHGHG)
+(9,ABCDGHGHGH) (GO-TO)
+(6,ABCDGHGHGH) (TESTE F)
+(10, ABCDGHGHGH)
+(11, ABCDGHGHGHJ)
+FINAL
+
