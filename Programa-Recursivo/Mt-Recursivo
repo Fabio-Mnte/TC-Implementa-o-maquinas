@@ -1,0 +1,26 @@
+#NOTA 1 -> o comando Printf será desconsiderado para os propositos da maquina de traços
+#NOTA 2 -> todas as maquinas de traço terão como entrada o numero 3 para fins didaticos
+ 
+#RECURSIVO#
+
+A = int num;
+B = scanf("%d", &num);
+*C = num == 0*
+D = num * R(num-1)
+J = RETURN 1;
+R = função recursiva
+
+(1,ε)
+(2,A)
+(3,AB) (ENTRA R COM VALOR DE NUM)
+(4, AB) (TESTE C)
+(5, AB) (RECURSÃO 1)
+(4, ABD) (TESTE C)
+(5, ABD) (RECURSÃO 2)
+(4, ABDD) (TESTE C)
+(5, ABDD) (RECURSAO 3)
+(4, ABDDD) (TESTE C) (NUM = 0, FINALIZA A RECURSAO)
+(4,ABDDDJ)
+(4,ABDDDJJ)
+(6,ABDDDJJJ) (PRINT)
+FINALIZADO - RETORNA O NUMERO 6 (3*2, 3*1)
